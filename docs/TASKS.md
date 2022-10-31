@@ -147,7 +147,7 @@ _Hints and Notes_
 
 The graph simulator is going to run a cool "coloring" algorithm, but this requires a priority queue with the ability to *update* the priority of individual items. If you look at your textbook, it gives information in Chapter 21 (section 4) about the "decrease key" operation. We want a similar update() operation which increases (or decreases) the priority of the item. The item (or an equal item) will be provided and it should update the priority queue appropriately.
 
-The only way to do this efficiently is to use a map to map heap items to indexes so that you know where to start the update (in average case O(1) time). Without this, update() would be O(n) and not O(lg n). Therefore before you implement updating, you need to integrate a map into the Weiss code. Whenever an item is placed, moved, or removed from the heap, the map should updated to reflect the item's new index (or remove it from the map in the case of removal from the heap). You are welcome to use the JCF HashMap class for this, or you may use your HashTable implementation from Project 3 (your choice).
+The only way to do this efficiently is to use a map to map heap items to indexes so that you know where to start the update (in average case O(1) time). Without this, update() would be O(n) and not O(lg n). Therefore before you implement updating, you need to integrate a map into the Weiss code. Whenever an item is placed, moved, or removed from the heap, the map should updated to reflect the item's new index (or remove it from the map in the case of removal from the heap). You are welcome to use the JCF HashMap class for this, or you may use your HashMap implementation from Project 3 (your choice).
 
 ### Task 5: Implement Coloring Algorithm in the Simulator (20%)
 

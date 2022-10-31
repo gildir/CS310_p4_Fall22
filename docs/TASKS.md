@@ -9,7 +9,7 @@ There are **5** tasks in this assignment. It is suggested that you implement the
 4. [Task 4: Implement an Efficient Update Mechanism for a Heap Class (20%)](#task-4-implement-an-efficient-update-mechanism-for-a-heap-class-20)
 5. [Task 5: Implement Coloring Algorithm in the Simulator (20%)](#task-5-implement-coloring-algorithm-in-the-simulator-20)
 
-Additionally, there are some [Examples for Testing](Examples for Testing) at the bottom of this page that you should read before running the simulator.
+Additionally, there are some [Examples for Testing](#examples-for-testing) at the bottom of this page that you should read before running the simulator.
 
 ### Task 1: Examine the JCF Classes (0%)
 

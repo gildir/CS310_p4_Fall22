@@ -27,6 +27,7 @@ import java.util.NoSuchElementException;
  * From your textbook (Weiss)
  */
 public class WeissPriorityQueue<AnyType> extends WeissAbstractCollection<AnyType>
+{
 	//you may not have any other class variables, only this one
 	//if you make more class variables your priority queue class
 	//will receive a 0, no matter how well it works
@@ -39,7 +40,6 @@ public class WeissPriorityQueue<AnyType> extends WeissAbstractCollection<AnyType
 	private AnyType [ ] array; // The heap array
 	private Comparator<? super AnyType> cmp;
 	private HashMap<AnyType, Integer> indexMap;
-{
 	//--------------------------------------------------------
 	// testing code goes here... edit this as much as you want!
 	//--------------------------------------------------------

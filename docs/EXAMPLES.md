@@ -68,14 +68,14 @@ You can try out our coloring algorithm one step at a time to help debugging your
 Stage | Image|Explanation
 :---:|:---: | :---:
 Start| ![](example4a.png "")|Setup your graph (you can zoom with mouse scroll; empty heap and empty stack)
-Stage 1| ![](example4b.png "")|Hit "Step" (nodes should now show costs; node of highest degree highlighted)
-Stage 1|![](example4c.png "")|Hit "Step" (all ndoes added to heap; max node is pushed into stack; edges are inactive; neighbors show their updated cost; next max node highlighted ...)
-Stage 1|![](example4d.png "")|Hit "Step" (all edges inactive; still need to process nodes in heap one by one ...)
-Stage 1|![](example4e.png "")|Hit "Step" (all nodes in stack while heap empty: end of stage 1)
+Stage 1| ![](example4b.png "")|Hit "Step" (nodes should now show costs; all ndoes added to heap; node of highest degree highlighted)
+Stage 1|![](example4c.png "")|Hit "Step" ( max node pushed into stack with its edges inactive; neighbors show their updated cost; next max node highlighted, repeat ...)
+Stage 1|![](example4d.png "")|Hit "Step" for more times (all edges inactive; still need to process nodes in heap one by one ...)
+Stage 1|![](example4e.png "")|Hit "Step" for more times (all nodes in stack while heap empty: end of Stage 1)
 Stage 2|![](example4f.png "")|Hit "Step" (stack top popped off; decide a color that not used by any neighbor; all incident edges also take the same color to give nodes-to-be-colored a hint, repeat ...)
-Stage 2|![](example4g.png "")|Hit "Step" (pink already in use, pick the next color)
-Stage 2|![](example4h.png "")|Hit "Step" (all nodes colored using 3 colors; stack empty)
-Stage 2|![](example4h.png "")|Hit "Step" (end of coloring; switch edge back to normal)
+Stage 2|![](example4g.png "")|Hit "Step" for more times (pink already in use, pick the next color (green))
+Stage 2|![](example4h.png "")|Hit "Step" for more times (all nodes colored using 3 colors; stack empty)
+Stage 2|![](example4i.png "")|Hit "Step" (end of coloring; switch edge back to normal color (black))
 
 
 ### Example 5

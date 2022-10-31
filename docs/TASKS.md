@@ -15,7 +15,7 @@ Additionally, there are some [Examples for Testing](#examples-for-testing) at th
 
 Read and familiarize yourself with the JCF classes. You must use these classes in your project, so becoming familiar with them *before* starting is important. Below is an overview of the classes:
 
-1. [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) - Java's dynamic array list class
+1. [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) - Java's linked list class
 2. [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) - Java's map class supported by a hash table
 3. [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) - All JCF classes implement this generic interface.
 

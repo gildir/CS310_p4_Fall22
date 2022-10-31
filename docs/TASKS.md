@@ -7,7 +7,7 @@ There are **5** tasks in this assignment. It is suggested that you implement the
 2. [Task 2: Read the Provided Code Base (0%)](#task-2-read-the-provided-code-base-0)
 3. [Task 3: Implement an Undirected Graph Class to Support the Simulator (60%)](#task-3-implement-an-undirected-graph-class-to-support-the-simulator-60)
 4. [Task 4: Implement an Efficient Update Mechanism for a Heap Class (20%)](#task-4-implement-an-efficient-update-mechanism-for-a-heap-class-20)
-5. [Task 5: Implement Coloring Algorithm in the Simulator (20%)](Task 5: Implement Coloring Algorithm in the Simulator (20%))
+5. [Task 5: Implement Coloring Algorithm in the Simulator (20%)](#task-5-implement-coloring-algorithm-in-the-simulator-20)
 
 Additionally, there are some [Examples for Testing](Examples for Testing) at the bottom of this page that you should read before running the simulator.
 

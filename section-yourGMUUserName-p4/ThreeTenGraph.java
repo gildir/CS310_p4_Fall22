@@ -53,6 +53,7 @@ class ThreeTenGraph implements Graph<GraphNode,GraphEdge>, UndirectedGraph<Graph
 	}
 	
 	//this is the only allowed constructor
+	@SuppressWarnings("unchecked")
 	public ThreeTenGraph() {
 		//reminder: you can NOT do this: ClassWithGeneric<T>[] items = (ClassWithGeneric<T>[]) new Object[10];
 		//you must use this format this instead: ClassWithGeneric<T>[] items = (ClassWithGeneric<T>[]) new ClassWithGeneric[10];
